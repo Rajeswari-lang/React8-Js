@@ -1,0 +1,18 @@
+  var b = ["Hello","Hello1","Hello2"] 
+  var arr = [];
+  var arr1 = [];
+  var arr2 = [];
+for (let i of b ){
+  for (let i of b ){
+arr.push(Number(j))
+  }
+}
+for (let r of arr){
+  if(isNaN(r)){
+    arr1.push(r)
+  }
+  else{
+    arr2.push(r)
+  }
+}
+let add = arr2.reduce((a,b)=>{return a+b})
